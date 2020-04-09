@@ -38,8 +38,8 @@ https://e79b4c9b.ngrok.io/webhooks/inbound-sms
 
 ## How this works
 
-Since Nexmo API only supports NodeJS and I am interested in creating a react single-page-application.
-However, the Nexmo library only supports NodeJS. Hence,  an Express "middleware" was created and the react application will sit on top of this using a **proxy server**. 
+I am interested in creating a react single-page-application. However, the Nexmo library only supports NodeJS. 
+Hence,  an Express "middleware" was created and the react application will sit on top of this using a **proxy server**. 
 We will have a _proxy_ entry in `client/package.json`.
 
 ```
