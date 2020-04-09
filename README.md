@@ -22,6 +22,7 @@ Update the .env file. Insert values for API_KEY, API_SECRET,BRAND_NAME & VIRTUAL
 To start the server and client at the same time (from the root of the project)
 
 ```
+cd ..
 npm start 
 ```
 
