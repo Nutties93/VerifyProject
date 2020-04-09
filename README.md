@@ -54,12 +54,12 @@ This tells Webpack development server to proxy our API requests to our API serve
 
 This will call Nexmo APIs to verify that you own the number that you have just keyed in.
 
-3) Upon clicking the "SUBMIT 4 PIN" button, you will directed "/verifyproject", a Protected page.
+3) Upon clicking the "SUBMIT 4 PIN" button, you will directed "/verifyproject", a protected page.
 
-** The routing of the web application is using react-routers.The routing mechanism can also make use of react-cookies to encrypt/decrypt "JWT tokens".
-In this project, I'm simply storing the required values as cookies after every successful API calls and the protected page checks for the existence of these cookies. **
+**The routing of the web application is using react-routers.The routing mechanism can also make use of react-cookies to encrypt/decrypt "JWT tokens".
+In this project, I'm simply storing the required values as cookies after every successful API calls and the protected page checks for the existence of these cookies.**
 
-4) "click" logout to return back to the main page. "/"
+4) "Click" logout to return back to the main page. "/"
 
 5) In the "/verifyproject" page, you can now key in two valid phone numbers and execute the "private SMS communication" example.
 
