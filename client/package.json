@@ -1,0 +1,28 @@
+{
+  "name": "nexmo-frontend-application",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.9.9",
+    "aes-js": "^3.1.2",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
